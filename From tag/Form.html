@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="" method="get">
+        <table>
+            <tr>
+                <td>
+                    <label for="Username">Username</label>
+                </td>
+                <td>
+                  <input
+                   type="text"
+                   placeholder="Enter user name"
+                   id="Username"
+                   name="Username"
+                   >
+                </td>
+            </tr>    
+            <tr>
+                <td>
+                    <label for="Email">Email</label>
+                </td>
+                <td>
+                  <input
+                   type="text"
+                   placeholder="Enter Email "
+                   id="Email"
+                   name="Email"
+                   ><br>
+                </td>
+            </tr>
+                
+            <tr>
+                <td>
+                    <label for="Password">Password</label>
+                </td>
+                <td>
+                  <input
+                   required type="Password"
+                   placeholder="Enter Password "
+                   id="Password"
+                   name="Password"
+                   ><br>
+                </td>
+            </tr>
+             <tr>
+            <td>
+                <label for="contact">Contact</label>
+            </td>
+            <td>
+                <input required type="text" 
+                maxlength="10" 
+                placeholder="Enter 10-Digit Mob.Number" 
+                id="contact" name="contact" 
+                pattern="[6789][0-9]{9}">
+            </td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>
